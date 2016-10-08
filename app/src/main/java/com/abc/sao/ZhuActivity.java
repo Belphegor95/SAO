@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
+//https://github.com/Belphegor95/SAO.git
 public class ZhuActivity extends AppCompatActivity {
 
     RecyclerView recycleView;
@@ -50,6 +50,7 @@ public class ZhuActivity extends AppCompatActivity {
         public ItemView(View itemView) {
             super(itemView);
             titleView = (TextView)itemView.findViewById(R.id.mtextView);
+
         }
 
     }
